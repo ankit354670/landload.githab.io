@@ -1,0 +1,125 @@
+/* navbar for our website */
+.N{
+    text-align: center;
+    margin-top: 3%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.N{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    height: 80%;
+    height: 280px;
+    color: rgb(0, 0, 0);
+}
+.cv{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+.img1{
+    width: 92%;
+}
+.nav::after{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+.lo{
+    list-style: none;
+    margin: 2%;
+    position: sticky;
+    top: 0px;
+}
+.lo:hover{
+    cursor: pointer;
+    background-color: rgb(68, 63, 63);
+    
+}
+#nav::before{
+    content:"";
+    position: absolute;
+    background: url("https://english.asu.edu/sites/default/files/first-year-comp-hero.jpg")  center center/cover;
+    height: 50%;
+    width: 100%;
+    z-index:-1;
+    opacity: 0.79;
+    margin: 0%;
+    padding: 0%;
+    display: block;
+}
+/* one-on-one coaching */
+.men{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.con{
+    padding: 2%;
+    margin: 5%;
+    border: 2px solid rgb(255, 24, 24);
+    overflow: hidden;
+    text-align: center;
+    width: 70%;
+}
+.conn{
+    padding: 2%;
+    margin-bottom: 5%;
+    border: 2px solid rgb(255, 24, 24);
+    overflow: hidden;
+    text-align: center;
+    width: 70%;
+}
+.img2{
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+/* about us */
+.end{
+    text-align: center;
+}
+.end1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+}
+.end1::before{
+    content: "";
+    position: absolute;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg-wipLyJlKH6W89p8cUU_TS8dDMFQASNPow&usqp=CAU) no-repeat center center/cover;
+    height: 50%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.69;
+    display: block;
+}
+.gg{
+    height: 22px;
+}
+/* contct and endbar of website */
+.endbar{
+   display: flex; 
+   list-style: none;
+   background-color: red;
+   justify-content: center;
+}
+.endbar1{
+    width: 90%;
+    margin: 3%;
+}
+.endbar1:hover{
+    background-color: rgb(160, 0, 0);
+    cursor: pointer;
+}
